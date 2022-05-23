@@ -17,6 +17,7 @@ public class If_Else_Switch_Break {
        }
 
 
+        
 
 
         // To check if it is even or odd
@@ -32,6 +33,7 @@ public class If_Else_Switch_Break {
        }
 
 
+        
 
         // else if
        Scanner sc = new Scanner(System.in);
@@ -50,6 +52,7 @@ public class If_Else_Switch_Break {
        }
 
 
+        
 
         // Using if else
        Scanner sc = new Scanner(System.in);
@@ -70,6 +73,7 @@ public class If_Else_Switch_Break {
        }
 
 
+        
 
         // Using Switch Break
         Scanner sc = new Scanner(System.in);
