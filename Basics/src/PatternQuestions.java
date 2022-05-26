@@ -59,6 +59,7 @@ public class PatternQuestions {
         
         
         
+        
         // Printing Reverse Pyramid
 //        ****
 //        ***
