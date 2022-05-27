@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Calculator
+// Calculator Question
 
 public class If_else_Switch_Question {
     public static void main(String[] args) {
