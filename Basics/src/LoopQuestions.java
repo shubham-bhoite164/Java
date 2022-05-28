@@ -62,6 +62,7 @@ public class LoopQuestions {
 
 
 
+        
 //        Make a menu driven program. The user can enter 2 numbers, either 1 or 0.
 //        If the user enters 1 then keep taking input from the user for a student’s marks(out of 100).
 //        If they enter 0 then stop.
@@ -71,6 +72,7 @@ public class LoopQuestions {
 //        59 >= Marks >= 0 -> print “This is Good as well”
 //        Because marks don’t matter but our effort does.
 
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the choice 1/0 ");
         int choice = sc.nextInt();
