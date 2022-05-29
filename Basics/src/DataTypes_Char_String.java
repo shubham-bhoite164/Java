@@ -9,7 +9,6 @@ public class DataTypes_Char_String {
         System.out.println(c);
 
 
-
         //String
         //The String data type is used to store a sequence of characters (text).
         // String values must be surrounded by double quotes
