@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
-        int[] marks; // That's how we declare the array
-        marks = new int[3];
+        // That's how we declare the array
+       int[] marks = new int[3];
 
         marks[0]=97; // Putting the number in specific indexes
         marks[1]=98;
