@@ -12,15 +12,16 @@ public class Arrays {
 
         // long Method to print array
 
-//        System.out.println(marks[0]);
-//        System.out.println(marks[1]);
-//        System.out.println(marks[2]);
+        System.out.println(marks[0]);
+        System.out.println(marks[1]);
+        System.out.println(marks[2]);
 
         // Easy method to print array
         for (int i = 0;i<3;i++){
             System.out.println(marks[i]);
 
         }
+        
 
         // Another Method to Declare the Array
         int[] num = {10,20,30};
