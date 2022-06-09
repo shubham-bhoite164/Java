@@ -13,6 +13,7 @@ public class Arrays_1 {
         for (int i=0;i<num;i++){
             marks[i] = sc.nextInt();
         }
+        
         // In this we are giving Output
         for (int i = 0; i<num; i++){
             System.out.println(marks[i]);
