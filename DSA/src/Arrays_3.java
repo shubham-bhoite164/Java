@@ -14,7 +14,7 @@ public class Arrays_3 {
         }
 
         for (int i=0;i<size;i++){
-            System.out.println(names[i]);
+            System.out.print(names[i]+" ");
         }
 
     }
