@@ -16,6 +16,7 @@ public class Arrays_2D_1 {
 
         //input
         //rows
+        
         for (int i = 0; i < row; i++) {
             //columns
             for (int j = 0; j < column; j++) {
