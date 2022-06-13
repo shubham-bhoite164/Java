@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Arrays_2D_1 {
     public static void main(String[] args) {
+        
         // Declaration of 2D arrays
         // int[][] num = new int[3][5]
         // First bracket is row and second bracket is column
