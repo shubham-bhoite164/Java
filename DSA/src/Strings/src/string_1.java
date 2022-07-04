@@ -7,6 +7,7 @@ public class string_1 {
         // Declaring a String
         String fullName = "Shubham Bhoite";
         String sentence = "I am a boy";
+        
 
         // By taking a user input
         Scanner sc = new Scanner(System.in);
