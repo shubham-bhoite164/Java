@@ -31,6 +31,7 @@ public class stringBuilder_1 {
         op.delete(1,2);
         System.out.println(op);
         // It will print Bhoite
+        
 
         // Appending elements in String
         op.append('S');
