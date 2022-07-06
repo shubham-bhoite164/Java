@@ -39,6 +39,7 @@ public class stringBuilder_1 {
 
         // Length of String
         System.out.println(op.length());
+        
 
         // Reversion a string
         System.out.println(op.reverse());
