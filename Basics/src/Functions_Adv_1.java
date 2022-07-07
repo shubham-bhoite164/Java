@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Functions_Adv_1 {
     public static void main(String[] args) {
         
