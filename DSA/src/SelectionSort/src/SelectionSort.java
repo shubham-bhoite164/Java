@@ -40,43 +40,42 @@ public class SelectionSort {
 
 // Easy Expplanation 
 
-class Sort  
+class Sort 
 { 
-    static void insertionSort(int arr[], int n) 
+    void selectionSort(int arr[]) 
     { 
-        if (n <= 1)                             //passes are done
-        {
-            return; 
-        }
-
-        insertionSort( arr, n-1 );        //one element sorted, sort the remaining array
-       
-        int last = arr[n-1];                        //last element of the array
-        int j = n-2;                                //correct index of last element of the array
-       
-        while (j >= 0 && arr[j] > last)                 //find the correct index of the last element
+        int pos;
+        int temp;
+        for (int i = 0; i < arr.length; i++) 
         { 
-            arr[j+1] = arr[j];                          //shift section of sorted elements upwards by one element if correct index isn't found
-            j--; 
-        } 
-        arr[j+1] = last;                            //set the last element at its correct index
-    } 
+            pos = i; 
+            for (int j = i+1; j < arr.length; j++) 
+           {
+                if (arr[j] < arr[pos])                  //find the index of the minimum element
+                {
+                    pos = j;
+                }
+            }
 
-    void display(int arr[])                 //display the array
-    {  
-        for (int i=0; i<arr.length; ++i) 
+            temp = arr[pos];            //swap the current element with the minimum element
+            arr[pos] = arr[i]; 
+            arr[i] = temp; 
+        } 
+    } 
+  
+    void display(int arr[])                     //display the array
+    { 
+        for (int i=0; i<arr.length; i++) 
         {
             System.out.print(arr[i]+" ");
-        } 
+        }  
     } 
- 
-       
-    public static void main(String[] args) 
+  
+    public static void main(String args[]) 
     { 
-        int arr[] = {22, 21, 11, 15, 16}; 
-       
-        insertionSort(arr, arr.length); 
-        Sort ob = new Sort();
+        Sort ob = new Sort(); 
+        int arr[] = {64,25,12,22,11}; 
+        ob.selectionSort(arr); 
         ob.display(arr); 
     } 
-} 
+}
